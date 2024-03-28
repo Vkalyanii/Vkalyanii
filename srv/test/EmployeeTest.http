@@ -16,4 +16,5 @@
 #       "address_ID": "12ec3728-73b0-4fc2-a815-735677f9bfa6"
 #     }
 
-GET http://localhost:4004/EmployeeSRV/Employee?$expand=address HTTP/1.1
+GET http://localhost:4004/EmployeeSRV/Employee?$expand=address & $ filter = fname eq 'james' HTTP/1.1
+
