@@ -1,0 +1,19 @@
+#to get the employee details
+
+# GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+
+# POST http://localhost:4004/EmployeeSRV/Employee HTTP/1.1  HTTP/1.1
+# Content-Type: application/json
+#  {
+#       "fname": "jam",
+#       "lName": "bond",
+#       "ID": "11ec3728-73b0-4fc2-a815-735677f9bfa6",
+#       "gender": null,
+#       "DOB": null,
+#       "contractStarted": null,
+#       "email": "jamesbond@gmail.com",
+#       "phone": "9902378967",
+#       "address_ID": "12ec3728-73b0-4fc2-a815-735677f9bfa6"
+#     }
+
+GET http://localhost:4004/EmployeeSRV/Employee?$expand=address HTTP/1.1

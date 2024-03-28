@@ -1,2 +1,2 @@
-ID,name,lname,address
-b194af34-f0e0-471e-9b06-85999230d72c,jhon,smith,US
+ID,fname,lname,DOB,contractStarted,email,phone,address_id
+11ec3728-73b0-4fc2-a815-735677f9bfa6,james,bond,23-05-1967,23-01-1998,jamesbondgmail.com,9902378967,12ec3728-73b0-4fc2-a815-735677f9bfa6
