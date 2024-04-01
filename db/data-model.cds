@@ -18,7 +18,6 @@ entity Employee : types.PersonDetail,cuid{
 entity Address:cuid {
   street:String;
   pincode:Integer ;
-
   employee : Association to Employee
 
 }
@@ -37,4 +36,10 @@ nps        : types.Amount;
 vpf : types.Amount;
 //employee : Association to Employee
 
+}
+
+entity Designation : cuid {
+  name        : String;
+  description : String;
+  level       : String;
 }
