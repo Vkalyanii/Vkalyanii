@@ -12,8 +12,10 @@
 ### Get Employee Along With Address
 #GET http://localhost:4004/EmployeeSRV/Employee?$expand=address HTTP/1.1
 
-### Getting the Employee details
-GET http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
+### Getting the Employee detail
+
+
+GET http://localhost:4004/v2/EmployeeSRV/Employee HTTP/1.1
 
 ### Create Employee
 POST http://localhost:4004/EmployeeSRV/Employee HTTP/1.1
@@ -35,6 +37,17 @@ GET http://localhost:4004/EmployeeSRV/Employee?$expand=address HTTP/1.1
 
 ### Get Page navigation (skip)
 GET http://localhost:4004/EmployeeSRV/Employee?$expand=address&$top=2&$skip=1 HTTP/1.1
+
+### Get Employee Along With Address
+
+GET http://localhost:4004/v2/EmployeeSRV/Employee?$expand=address HTTP/1.1
+
+
+GET  HTTP/1.1 http://localhost:4004/V2/EmployeeSRV/Employee?$expand=address HTTP/1.1
+
+
+
+
 
 
 

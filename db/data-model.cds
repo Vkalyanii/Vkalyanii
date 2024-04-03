@@ -2,11 +2,12 @@ namespace employee.details;
 using { reuse.types as types } from './reuse';
 using { cuid } from '@sap/cds/common';
 
-entity Employee : types.PersonDetail,cuid{
+entity Employee : types.Personaldetail,cuid{
 
   
   gender : String;
   DOB : Date;
+  Age : Integer;
   contractStarted : Date;
   email : types.email not null;
   phone : types.phone not null ;

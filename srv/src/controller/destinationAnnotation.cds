@@ -1,4 +1,4 @@
-using { EmployeeService } from './employee-service';
+using {EmployeeService} from './employee-service';
 
 annotate EmployeeService.Designation with @(Capabilities: {
     InsertRestrictions: {
