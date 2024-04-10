@@ -1,5 +1,12 @@
 {
+  "xsappname": "SAP-CAP-Demo-xs-app",
+  "tenant-mode": "dedicated",
   "scopes": [],
   "attributes": [],
-  "role-templates": []
+  "role-templates": [],
+  "role-collections": [],
+  "oauth2-configuration": {
+    "token-validity": 3600,
+    "redirect-uris": ["https://*/**"]
+  }
 }
